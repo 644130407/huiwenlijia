@@ -9,4 +9,4 @@
 <h3>首页平板/手机</h3>
 <img src="https://github.com/644130407/huiwenlijia/blob/master/screenshot/index2.jpg" />
 <h3>其它页</h3>
-<img src="https://github.com/644130407/huiwenlijia/blob/master/screenshot/hulianwang.jpg" />
+<img src="https://github.com/644130407/huiwenlijia/blob/master/screenshot/huilianwang.jpg" />
