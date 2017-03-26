@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="am-g">
+    <div class="am-slider am-slider-default am-u-sm-12 " data-am-flexslider id="demo-slider-0">
+        <ul class="am-slides">
+            <li><img src="/imgs/slider1.png" /></li>
+            <li><img src="/imgs/slider1.png" /></li>
+        </ul>
+    </div>
+</div>
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only push-menu" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"><span class="am-icon-bars"></span></button>
+<div id="doc-oc-demo2" class="am-offcanvas">
+    <div class="am-offcanvas-bar">
+        <div class="am-offcanvas-content">
+            <ul>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">新闻</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">登录</a></li>
+                <li><a href="">注册</a></li>
+                <li><a href="">English</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="column">
+    <div class="am-container col-header">
+        <label class="col-title">新闻</label>
+        <label class="col-more am-align-right ">全部新闻 ></label>
+    </div>
+    <div class="news-list am-container">
+        <div
+                class="am-slider am-slider-default am-slider-carousel"
+                data-am-flexslider="{itemWidth: 300, itemMargin: 5, slideshow: false}">
+            <ul class="am-slides">
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-14</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief ">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-15</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief ">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-16</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief ">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-17</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-18</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="am-container" style="">
+    <video id="example_video_1" class="video-js vjs-amazeui"  preload="none" style="width: 100%"
+           poster="/imgs/video-capture.png"
+           data-setup="{}">
+        <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' class="am-g" />
+        <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' class="am-g" />
+        <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' class="am-g"/>
+        <track kind="captions" src="video.js/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+        <track kind="subtitles" src="video.js/demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+    </video>
+</div>
+<div class="am-container">
+    <div class="col-header">
+        <label class="col-title news-item-title">核心能力</label>
+    </div>
+    <div class="am-u-sm-12 am-u-md-4 am-padding-0">
+        <img src="/imgs/news1.png" class="am-img-responsive news-list-img" alt="">
+        <div class="news-item-title am-text-center am-center">信息技术服务</div>
+        <div class="new-item-brief am-text-center am-center">
+            动力多项信息技术服务助力<br/>
+            各行业进行信息化升级转型
+        </div>
+    </div>
+    <div class="am-u-sm-12 am-u-md-4 am-padding-0">
+        <img src="/imgs/news1.png" class="am-img-responsive  news-list-img" alt="">
+        <div class="news-item-title am-text-center am-center">信息技术服务</div>
+        <div class="new-item-brief am-text-center am-center">
+            动力多项信息技术服务助力<br/>
+            各行业进行信息化升级转型
+        </div>
+    </div>
+    <div class="am-u-sm-12 am-u-md-4 am-padding-0">
+        <img src="/imgs/news1.png" class="am-img-responsive news-list-img" alt="">
+        <div class="news-item-title am-text-center am-center">信息技术服务</div>
+        <div class="new-item-brief am-text-center am-center">
+            动力多项信息技术服务助力<br/>
+            各行业进行信息化升级转型
+        </div>
+    </div>
+    <img src="/imgs/map.png" alt="" class="am-responsive-width img-all-width">
+</div>
+
+<div class="column">
+    <div class="am-container col-header">
+        <label class="col-title">新闻</label>
+        <label class="col-more am-align-right ">全部新闻 ></label>
+    </div>
+    <div class="news-list am-container">
+        <div
+                class="am-slider am-slider-default am-slider-carousel"
+                data-am-flexslider="{itemWidth: 300, itemMargin: 5, slideshow: false}">
+            <ul class="am-slides">
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-14</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief ">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-15</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief ">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-16</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief ">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-17</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+                <li class="news-item">
+                    <div class="news-item-date">2016-12-18</div>
+                    <img src="/imgs/news1.png" />
+                    <div class="news-item-title news-item-flow">开启城市发展新篇章开启城市发展新篇章</div>
+                    <div class="new-item-brief">2016年12月13日，在“中关村大数据日”举办期间，由中关村管委会、北京市经信委、北京市发改委指导，中关村管委会、北京...</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

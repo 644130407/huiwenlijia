@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only push-menu" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"><span class="am-icon-bars"></span></button>
+<div id="doc-oc-demo2" class="am-offcanvas">
+    <div class="am-offcanvas-bar">
+        <div class="am-offcanvas-content">
+            <ul>
+                <li><a href="">关于我们</a></li>
+                <li><a href="">新闻</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">登录</a></li>
+                <li><a href="">注册</a></li>
+                <li><a href="">智慧城市与公用事业</a></li>
+                <li><a href="">金融行业</a></li>
+                <li><a href="">电信高科技</a></li>
+                <li><a href="">其它</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="am-g">
+        <img src="/imgs/header1.png" class="am-img-responsive img-all-width" alt="" />
+    </div>
+    <div class="am-container nav-menu-ul-div">
+        <ul class="nav-menu-ul am-container ">
+            <li class="seven-col am-hide-sm-only nav-menu-list {{ jianjie }}"><a href="/jianjie">公司简介</a></li>
+            <li class="seven-col am-hide-sm-only nav-menu-list {{ fazhan }}"><a href="/fazhan">发展历程</a></li>
+            <li class="seven-col am-hide-sm-only nav-menu-list {{ guanli }}"><a href="/guanli">管理团队</a></li>
+            <li class="seven-col am-hide-sm-only nav-menu-list {{ zeren }}"><a href="/zeren">社会责任</a></li>
+            <li class="seven-col am-hide-sm-only nav-menu-list {{ rongyu }}">资质荣誉</li>
+            <li class="seven-col am-hide-sm-only nav-menu-list {{ shengtai }}"><a href="/shengtai">生态战略</a></li>
+            <li class="seven-col am-hide-sm-only nav-menu-list seven-col-last {{ kehu }}">客户及安全</li>
+        </ul>
+    </div>
+    {% block navmenu %}{% endblock %}
+
+    {% endblock %}
