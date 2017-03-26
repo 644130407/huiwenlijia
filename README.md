@@ -5,8 +5,8 @@
 <div>安装完成后，需要运行安装模块依赖</div>
 <div>显示几张截图：</div>
 <h3>首页PC</h3>
-<img src="https://github.com/644130407/huiwenlijia/blob/master/screenshot/index1.jpg" />
-<h3>首页平板/手机</h3>
 <img src="https://github.com/644130407/huiwenlijia/blob/master/screenshot/index2.jpg" />
+<h3>首页平板/手机</h3>
+<img src="https://github.com/644130407/huiwenlijia/blob/master/screenshot/index1.jpg" />
 <h3>其它页</h3>
 <img src="https://github.com/644130407/huiwenlijia/blob/master/screenshot/huilianwang.jpg" />
