@@ -4,6 +4,6 @@
 <div>系统要求：采用node.js v7.6极其以上版本</div>
 <div>安装完成后，需要运行安装模块依赖</div>
 <div>显示几张截图：</div>
-<div>![首页PC](https://github.com/644130407/huiwenlijia/blob/master/screenshot/index1png.png)</div>
-<div>![首页手机](https://github.com/644130407/huiwenlijia/blob/master/screenshot/index2.png)</div>
-<div>![互联网PC](https://github.com/644130407/huiwenlijia/blob/master/screenshot/hulianwang.png)</div>
+<div>![首页PC](https://github.com/644130407/huiwenlijia/blob/master/screenshot/index1.jpg)</div>
+<div>![首页手机](https://github.com/644130407/huiwenlijia/blob/master/screenshot/index2.jpg)</div>
+<div>![互联网PC](https://github.com/644130407/huiwenlijia/blob/master/screenshot/hulianwang.jpg)</div>
