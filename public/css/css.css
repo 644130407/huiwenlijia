@@ -13,6 +13,38 @@ a:hover{
     color: #fff;
     font-size: 14px;
 }
+.input-search {
+    border-radius:20px;
+    border:1px solid #fff;
+    background-color: #4d4d4d;
+    width: 120px
+}
+.img-sousou{
+    margin-left: 15px;
+}
+.img-weixin{
+    margin-left: 35px;
+}
+.img-weibo{
+    margin-left: 10px;
+}
+.top-denglu{
+    margin-left: 30px;
+}
+.top-zhuce{
+    margin-left: 15px;
+}
+.top-english{
+    margin-left: 35px;
+}
+.header-top-left{
+    position: relative;
+    top: 12px;
+}
+.header-top-right{
+    position: relative;
+    top: 12px;
+}
 .header-top-left>div{
     display: inline-block;
     text-align: left;
@@ -41,7 +73,7 @@ a:hover{
     font-size: 18px;
     text-align: center;
     display: inline-block;
-    margin-top: 16px;
+    margin-top: 25px;
     border-right: 1px solid black;
 }
 .nav-menu li a{
@@ -74,6 +106,8 @@ a:hover{
     background-color: black;
     color: white;
     font-size: 12px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .news-item-flow{
     display:block;
@@ -118,6 +152,7 @@ a:hover{
     overflow:hidden;
     text-overflow:ellipsis;
     word-wrap: break-word;
+    padding-left: 28px;
 }
 
 .nav-menu-ul .nav-menu-list {
@@ -229,4 +264,25 @@ a:hover{
 .eng-title{
     color: #7d7d7d;
     margin-top: -20px;
+}
+
+.footer-7columns{
+    float:left;
+    width: 13%;
+    margin-left: 1%;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+}
+.footer-icon{
+    margin-right: 15px;
+}
+.footer-item-title{
+    font-size: 14px;
+}
+.footer-copyright{
+    color: #fff;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #4d4d4d;
 }
